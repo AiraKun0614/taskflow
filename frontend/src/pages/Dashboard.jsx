@@ -74,6 +74,7 @@ useEffect(() => {
         headers: { Authorization: `Bearer ${token}` }
       });
       fetchTasks();
+    // eslint-disable-next-line no-unused-vars
     } catch (err) {
       alert('Error al eliminar');
     }

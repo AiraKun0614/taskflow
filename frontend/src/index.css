@@ -1,4 +1,23 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ←←← ESTO ES LO QUE TE FALTABA →→→ */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Opcional: fondo global bonito para que no quede blanco o negro puro */
+body {
+  background: #0a0e1a;
+  color: white;
+  font-family: 'Inter', system-ui, sans-serif;
+}
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
